@@ -20,6 +20,7 @@
   "homepage": "https://github.com/eshelton328/WSBTracker#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "puppeteer": "^6.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
