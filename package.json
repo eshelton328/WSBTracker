@@ -1,0 +1,36 @@
+{
+  "name": "wsbtracker",
+  "version": "1.0.0",
+  "description": "Web application to track most commonly mentioned tickers on the subreddit WallStreetBets",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server/ && node server.js",
+    "build": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eshelton328/WSBTracker.git"
+  },
+  "author": "Erik Shelton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eshelton328/WSBTracker/issues"
+  },
+  "homepage": "https://github.com/eshelton328/WSBTracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.20.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
