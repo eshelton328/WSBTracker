@@ -1,9 +1,10 @@
 import React from 'react';
+// import Data from './components/Data.jsx';
 
 const App = () => {
   return (
     <div>
-      Hello World!
+      Test
     </div>
   );
 }
